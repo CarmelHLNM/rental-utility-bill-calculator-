@@ -1,43 +1,47 @@
-# Rental Utility Bill Calculator
+# 🚀 **Rental Utility Bill Calculator**
+
+> ⚡ Simple Python utility billing system for rental houses.
+
+---
 
 ```text
-Rental Utility Bill Calculator
+📦 Rental Utility Bill Calculator
 │
-├── # Project Overview
+├── 🧠 **Project Overview**
 │   ├── Simple Python rental expense calculator
 │   ├── Command-line based utility billing tool
 │   └── Calculates monthly rental expenses
 │
-├── Core Functions
+├── ⚡ **Core Functions**
 │   │
-│   ├── Electricity Calculation
+│   ├── 🔌 Electricity Calculation
 │   │   ├── Calculate kWh usage
 │   │   ├── Calculate electricity cost
 │   │   └── Compare old/new meter readings
 │   │
-│   ├── Water Calculation
+│   ├── 🚿 Water Calculation
 │   │   ├── Calculate water usage (m3)
 │   │   ├── Calculate water bill
 │   │   └── Compare old/new water readings
 │   │
-│   ├── Rental Cost
+│   ├── 🏠 Rental Cost
 │   │   └── Add fixed monthly rent
 │   │
-│   └── Total Payment
+│   └── 💰 Total Payment
 │       ├── Combine all expenses
 │       └── Display final payment amount
 │
-├── User Input Flow
+├── 🧾 **User Input Flow**
 │   │
-│   ├── Electricity Meter
+│   ├── 🔌 Electricity Meter
 │   │   ├── New reading
 │   │   └── Old reading
 │   │
-│   └── Water Meter
+│   └── 🚿 Water Meter
 │       ├── New reading
 │       └── Old reading
 │
-├── Calculation Flow
+├── 🧮 **Calculation Flow**
 │   │
 │   ├── Electricity Usage
 │   │   └── new_reading - old_reading
@@ -52,54 +56,54 @@ Rental Utility Bill Calculator
 │   └── Final Bill
 │       └── rent + electricity + water
 │
-├── Pricing Configuration
+├── ⚙️ **Pricing Configuration**
 │   │
-│   ├── Rent
+│   ├── 🏠 Rent
 │   │   └── 1,200,000 VND
 │   │
-│   ├── Electricity Price
+│   ├── 🔌 Electricity Price
 │   │   └── 4,000 VND / kWh
 │   │
-│   └── Water Price
+│   └── 🚿 Water Price
 │       └── 10,000 VND / m3
 │
-├── Project Structure
+├── 📁 **Project Structure**
 │
 │   project/
 │   ├── english_version.py
 │   ├── vietnamese_version.py
 │   └── README.md
 │
-├── Program Execution
+├── ▶️ **Program Execution**
 │   │
-│   ├── Run Command
+│   ├── 💻 Run Command
 │   │
 │   │   python english_version.py
 │   │
-│   └── Interface Type
+│   └── 🖥️ Interface Type
 │       └── Command-line interface (CLI)
 │
-├── Example Workflow
+├── 🧪 **Example Workflow**
 │   │
-│   ├── Electricity Input
+│   ├── 🔌 Electricity Input
 │   │   ├── New reading: 120
 │   │   └── Old reading: 100
 │   │
-│   ├── Water Input
+│   ├── 🚿 Water Input
 │   │   ├── New reading: 15
 │   │   └── Old reading: 10
 │   │
-│   ├── Consumption Result
+│   ├── 📊 Consumption Result
 │   │   ├── Electricity: 20 kWh
 │   │   └── Water: 5 m3
 │   │
-│   └── Final Costs
+│   └── 💵 Final Costs
 │       ├── Electricity bill: 80,000 VND
 │       ├── Water bill: 50,000 VND
 │       ├── Rent: 1,200,000 VND
 │       └── Total payment: 1,330,000 VND
 │
-└── Learning Purpose
+└── 🎯 **Learning Purpose**
     │
     ├── Python Functions
     ├── Variables & Constants
