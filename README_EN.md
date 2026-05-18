@@ -3,7 +3,7 @@
 ```text
 Rental Utility Bill Calculator
 │
-├── Project Overview
+├── # Project Overview
 │   ├── Simple Python rental expense calculator
 │   ├── Command-line based utility billing tool
 │   └── Calculates monthly rental expenses
