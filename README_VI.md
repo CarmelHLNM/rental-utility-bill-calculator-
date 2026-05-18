@@ -1,43 +1,47 @@
-# Công Cụ Tính Tiền Điện Nước Nhà Cho Thuê
+# 🚀 **Công Cụ Tính Tiền Điện Nước Nhà Cho Thuê**
+
+> ⚡ Công cụ Python đơn giản hỗ trợ tính chi phí thuê nhà hàng tháng.
+
+---
 
 ```text
-Công Cụ Tính Tiền Điện Nước Nhà Cho Thuê
+📦 Công Cụ Tính Tiền Điện Nước Nhà Cho Thuê
 │
-├── Tổng Quan Dự Án
+├── 🧠 **Tổng Quan Dự Án**
 │   ├── Công cụ Python tính chi phí thuê nhà
 │   ├── Chạy bằng giao diện dòng lệnh (CLI)
 │   └── Hỗ trợ tính tổng chi phí hàng tháng
 │
-├── Chức Năng Chính
+├── ⚡ **Chức Năng Chính**
 │   │
-│   ├── Tính Tiền Điện
+│   ├── 🔌 Tính Tiền Điện
 │   │   ├── Tính số điện tiêu thụ (kWh)
 │   │   ├── So sánh chỉ số điện mới/cũ
 │   │   └── Tính tổng tiền điện
 │   │
-│   ├── Tính Tiền Nước
+│   ├── 🚿 Tính Tiền Nước
 │   │   ├── Tính số nước tiêu thụ (m3)
 │   │   ├── So sánh chỉ số nước mới/cũ
 │   │   └── Tính tổng tiền nước
 │   │
-│   ├── Tiền Thuê Nhà
+│   ├── 🏠 Tiền Thuê Nhà
 │   │   └── Thêm chi phí thuê cố định
 │   │
-│   └── Tổng Thanh Toán
+│   └── 💰 Tổng Thanh Toán
 │       ├── Tổng hợp toàn bộ chi phí
 │       └── Hiển thị số tiền cuối cùng
 │
-├── Luồng Nhập Dữ Liệu
+├── 🧾 **Luồng Nhập Dữ Liệu**
 │   │
-│   ├── Điện
+│   ├── 🔌 Điện
 │   │   ├── Chỉ số điện mới
 │   │   └── Chỉ số điện cũ
 │   │
-│   └── Nước
+│   └── 🚿 Nước
 │       ├── Chỉ số nước mới
 │       └── Chỉ số nước cũ
 │
-├── Luồng Tính Toán
+├── 🧮 **Luồng Tính Toán**
 │   │
 │   ├── Điện Tiêu Thụ
 │   │   └── chỉ_số_mới - chỉ_số_cũ
@@ -52,54 +56,54 @@ Công Cụ Tính Tiền Điện Nước Nhà Cho Thuê
 │   └── Tổng Hóa Đơn
 │       └── tiền_nhà + tiền_điện + tiền_nước
 │
-├── Cấu Hình Giá
+├── ⚙️ **Cấu Hình Giá**
 │   │
-│   ├── Tiền Thuê Nhà
+│   ├── 🏠 Tiền Thuê Nhà
 │   │   └── 1,200,000 VND
 │   │
-│   ├── Giá Điện
+│   ├── 🔌 Giá Điện
 │   │   └── 4,000 VND / kWh
 │   │
-│   └── Giá Nước
+│   └── 🚿 Giá Nước
 │       └── 10,000 VND / m3
 │
-├── Cấu Trúc Project
+├── 📁 **Cấu Trúc Project**
 │
 │   project/
 │   ├── english_version.py
 │   ├── vietnamese_version.py
 │   └── README.md
 │
-├── Cách Chạy Chương Trình
+├── ▶️ **Cách Chạy Chương Trình**
 │   │
-│   ├── Lệnh Chạy
+│   ├── 💻 Lệnh Chạy
 │   │
 │   │   python vietnamese_version.py
 │   │
-│   └── Loại Giao Diện
+│   └── 🖥️ Loại Giao Diện
 │       └── Command-line interface (CLI)
 │
-├── Ví Dụ Hoạt Động
+├── 🧪 **Ví Dụ Hoạt Động**
 │   │
-│   ├── Nhập Điện
+│   ├── 🔌 Nhập Điện
 │   │   ├── Chỉ số mới: 120
 │   │   └── Chỉ số cũ: 100
 │   │
-│   ├── Nhập Nước
+│   ├── 🚿 Nhập Nước
 │   │   ├── Chỉ số mới: 15
 │   │   └── Chỉ số cũ: 10
 │   │
-│   ├── Kết Quả Tiêu Thụ
+│   ├── 📊 Kết Quả Tiêu Thụ
 │   │   ├── Điện: 20 kWh
 │   │   └── Nước: 5 m3
 │   │
-│   └── Tổng Chi Phí
+│   └── 💵 Tổng Chi Phí
 │       ├── Tiền điện: 80,000 VND
 │       ├── Tiền nước: 50,000 VND
 │       ├── Tiền nhà: 1,200,000 VND
 │       └── Tổng tất cả: 1,330,000 VND
 │
-└── Mục Đích Dự Án
+└── 🎯 **Mục Đích Dự Án**
     │
     ├── Luyện tập hàm trong Python
     ├── Sử dụng biến và hằng số
